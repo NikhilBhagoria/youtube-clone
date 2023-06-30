@@ -6,11 +6,6 @@ const Header = () => {
     <div className="header">
       <div className="header-menu">
         <img src="/image/icons8-menu-50.png" alt="menu" srcset="" />
-        <ul>
-          <li>
-            <a href="#">start</a>
-          </li>
-        </ul>
       </div>
       <div className="header-search">
         <input type="search" name="Search" id="" />
