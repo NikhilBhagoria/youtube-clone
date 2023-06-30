@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Button from "./components/button/Button";
 import Card from "./components/pages/Card/Card";
+import Header from "./components/pages/header/Header";
 
 const data = [
   {
@@ -49,6 +50,7 @@ const data = [
 function App() {
   return (
     <div>
+      <Header />
       <div>
         <Button
           style={{

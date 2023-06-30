@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu {
+  display: inline-block;
+}
+.header-menu img {
+  width: 25px;
+  margin: 10px;
+}
+.header-search img {
+  width: 25px;
+  cursor: pointer;
+}
